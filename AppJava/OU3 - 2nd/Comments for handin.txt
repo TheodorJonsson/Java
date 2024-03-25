@@ -1,9 +1,0 @@
-Vet ej hur jag ska ändra/lägga till en JMenuBar på något meningsfullt sätt
-utan att ändra hur programmet är byggt upp och fungerar. Nu visar menubaren
-bara cachade kanaler
-
-Använder en AWT metod för att hämta bild i båda swingworkers men gör dessa bilder
-till en byte array för att spara undan i Channel och Episode klassen, gjorde detta för
-att undvika att läsa in bilderna på EDT tråden.
-
-Nu ska varje kanal bli en singleton ungefär kan inte skapa kopior av varje kanal meny
